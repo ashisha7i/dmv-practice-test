@@ -52,11 +52,13 @@ def get_questions_for_page(examNum, pageNum):
 
         question_image = get_question_image(question_row)
         question_obj["has_image"] = len(question_image) > 0
-        if question_image:
+        if len(question_image) > 0:
             question_obj["image_src"] = question_image
             if question_image not in globals()["downloaded_images"]:
+                print("Image :: ", question_image)
                 globals()["downloaded_images"].add(question_image)
                 wget.download(question_image, out="images")
+                question_obj["image_src"] = "https://raw.githubusercontent.com/ashisha7i/dmv-practice-test/main/images/" + question_image[question_image.rindex("/")+1:]
 
 
         question_obj["options"] = []
@@ -74,7 +76,7 @@ for exam in range(1,25):
     for page in range(1,8):
         print(f"Exam {exam} / Page {page}")
         questions_arr = get_questions_for_page(exam, page)
-        json_file = open("exam1.json", "w")
+        json_file = open("exam_questions.json", "w")
         json_file.write(json.dumps(questions_arr, indent=2))
         json_file.close()
 print("Done")
