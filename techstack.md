@@ -1,28 +1,32 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 ashisha7i/dmv-practice-test is built on the following main stack:
+
 - [Ruby](https://www.ruby-lang.org) – Languages
 - [Python](https://www.python.org) – Languages
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 ashisha7i/dmv-practice-test is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ashisha7i/dmv-practice-test](https://github.com/ashisha7i/dmv-practice-test)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|11<br/>Tools used|11/10/23 <br/>Report generated|
+|11<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -83,14 +87,14 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[beautifulsoup4](https://pypi.org/beautifulsoup4)|v4.10.0|02/27/22|Ashish Agnihotri |MIT|N/A|
-|[certifi](https://pypi.org/certifi)|v2021.10.8|02/27/22|Ashish Agnihotri |MPL-2.0|[CVE-2023-37920](https://github.com/advisories/GHSA-xqr8-7jwr-rhp7) (High)<br/>[CVE-2022-23491](https://github.com/advisories/GHSA-43fp-rhv2-5gv8) (Moderate)|
-|[idna](https://pypi.org/idna)|v3.3|02/27/22|Ashish Agnihotri |BSD-3-Clause|N/A|
-|[requests](https://pypi.org/requests)|v2.27.1|02/27/22|Ashish Agnihotri |Apache-2.0|[CVE-2023-32681](https://github.com/advisories/GHSA-j8r2-6x86-q33q) (Moderate)|
-|[soupsieve](https://pypi.org/soupsieve)|v2.3.1|02/27/22|Ashish Agnihotri |MIT|N/A|
-|[urllib3](https://pypi.org/urllib3)|v1.26.8|02/27/22|Ashish Agnihotri |MIT|[CVE-2023-45803](https://github.com/advisories/GHSA-g4mx-q9vg-27p4) (Moderate)<br/>[CVE-2023-43804](https://github.com/advisories/GHSA-v845-jxx5-vc9f) (Moderate)|
+|[beautifulsoup4](https://pypi.org/project/beautifulsoup4)|v4.10.0|02/27/22|Ashish Agnihotri |MIT|N/A|
+|[certifi](https://pypi.org/project/certifi)|v2021.10.8|02/27/22|Ashish Agnihotri |MPL-2.0|[CVE-2023-37920](https://github.com/advisories/GHSA-xqr8-7jwr-rhp7) (High)<br/>[CVE-2022-23491](https://github.com/advisories/GHSA-43fp-rhv2-5gv8) (Moderate)|
+|[idna](https://pypi.org/project/idna)|v3.3|02/27/22|Ashish Agnihotri |BSD-3-Clause|N/A|
+|[requests](https://pypi.org/project/requests)|v2.27.1|02/27/22|Ashish Agnihotri |Apache-2.0|[CVE-2023-32681](https://github.com/advisories/GHSA-j8r2-6x86-q33q) (Moderate)|
+|[soupsieve](https://pypi.org/project/soupsieve)|v2.3.1|02/27/22|Ashish Agnihotri |MIT|N/A|
+|[urllib3](https://pypi.org/project/urllib3)|v1.26.8|02/27/22|Ashish Agnihotri |MIT|[CVE-2023-45803](https://github.com/advisories/GHSA-g4mx-q9vg-27p4) (Moderate)<br/>[CVE-2023-43804](https://github.com/advisories/GHSA-v845-jxx5-vc9f) (Moderate)|
 
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
