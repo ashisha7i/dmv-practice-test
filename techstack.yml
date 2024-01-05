@@ -1,7 +1,8 @@
 repo_name: ashisha7i/dmv-practice-test
 report_id: ce84afea6d444ca555a0a1339c1d3971
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T00:59:30+00:00'
+timestamp: '2024-01-05T09:04:10+00:00'
 requested_by: ashisha7i
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ashisha7i/dmv-practice-test
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/ashisha7i/dmv-practice-test/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Ashish Agnihotri
   last_updated_on: 2022-02-27 10:38:39.000000000 Z
@@ -37,6 +40,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ashisha7i/dmv-practice-test
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -46,6 +50,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ashisha7i/dmv-practice-test/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Ashish Agnihotri
   last_updated_on: 2022-02-27 10:38:39.000000000 Z
@@ -57,12 +62,13 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/ashisha7i/dmv-practice-test/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Ashish Agnihotri
   last_updated_on: 2022-02-27 10:38:39.000000000 Z
 - name: beautifulsoup4
   description: Screen-scraping library
-  package_url: https://pypi.org/beautifulsoup4
+  package_url: https://pypi.org/project/beautifulsoup4
   version: 4.10.0
   license: MIT
   open_source: true
@@ -70,13 +76,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/ashisha7i/dmv-practice-test/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Ashish Agnihotri
   last_updated_on: 2022-02-27 10:38:39.000000000 Z
 - name: certifi
   description: Python package for providing Mozilla's CA Bundle
-  package_url: https://pypi.org/certifi
+  package_url: https://pypi.org/project/certifi
   version: 2021.10.8
   license: MPL-2.0
   open_source: true
@@ -84,7 +90,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/ashisha7i/dmv-practice-test/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Ashish Agnihotri
   last_updated_on: 2022-02-27 10:38:39.000000000 Z
@@ -103,7 +109,7 @@ tools:
     first_patched: 2022.12.07
 - name: idna
   description: Internationalized Domain Names in Applications
-  package_url: https://pypi.org/idna
+  package_url: https://pypi.org/project/idna
   version: '3.3'
   license: BSD-3-Clause
   open_source: true
@@ -111,13 +117,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19863/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/ashisha7i/dmv-practice-test/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Ashish Agnihotri
   last_updated_on: 2022-02-27 10:38:39.000000000 Z
 - name: requests
   description: Python HTTP for Humans
-  package_url: https://pypi.org/requests
+  package_url: https://pypi.org/project/requests
   version: 2.27.1
   license: Apache-2.0
   open_source: true
@@ -125,7 +131,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/ashisha7i/dmv-practice-test/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Ashish Agnihotri
   last_updated_on: 2022-02-27 10:38:39.000000000 Z
@@ -138,7 +144,7 @@ tools:
     first_patched: 2.31.0
 - name: soupsieve
   description: A modern CSS selector implementation for Beautiful Soup
-  package_url: https://pypi.org/soupsieve
+  package_url: https://pypi.org/project/soupsieve
   version: 2.3.1
   license: MIT
   open_source: true
@@ -146,13 +152,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20367/default_f96848c380cbdcec99ab678e027c29229da52205.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/ashisha7i/dmv-practice-test/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Ashish Agnihotri
   last_updated_on: 2022-02-27 10:38:39.000000000 Z
 - name: urllib3
   description: HTTP library with thread-safe connection pooling
-  package_url: https://pypi.org/urllib3
+  package_url: https://pypi.org/project/urllib3
   version: 1.26.8
   license: MIT
   open_source: true
@@ -160,7 +166,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/ashisha7i/dmv-practice-test/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Ashish Agnihotri
   last_updated_on: 2022-02-27 10:38:39.000000000 Z
